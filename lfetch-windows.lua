@@ -26,5 +26,5 @@ print(os.date("%d.%m.%Y"))
 --[[
 Credits
 https://github.com/bluebird75/lua_get_os_name/blob/master/get_os_name.lua
-this ascii image was used from neofetch (github link)
+this ascii image was used from neofetch (https://github.com/dylanaraps/neofetch)
 --]]
