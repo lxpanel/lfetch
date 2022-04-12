@@ -1,2 +1,2 @@
 # lfetch
-system information tool written in lua based on the design of neofetch
+To run lfetch you need to place lfetch-bsd,windows,mac,etc.lua in a directory. You need lua5.3 or higher to run lfetch.
