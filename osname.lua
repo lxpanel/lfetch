@@ -48,7 +48,7 @@ function M.get_os_name()
         ['^mingw']      = 'Windows',
         ['^cygwin']     = 'Windows',
         ['bsd$']        = 'BSD',
-        ['SunOS']       = 'Solaris',
+        ['sunos']       = 'Solaris',
     }
     
     local arch_patterns = {
@@ -60,6 +60,7 @@ function M.get_os_name()
         ['Power Macintosh'] = 'powerpc',
         ['^arm']            = 'arm',
         ['^mips']           = 'mips',
+        ['i86pc']           = 'x86',
     }
 
     local os_name, arch_name = 'unknown', 'unknown'
