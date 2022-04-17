@@ -32,6 +32,8 @@ print("MEMORY USAGE (kb):")
 print(collectgarbage("count"))
 print("DATE:")
 print(os.date("%d.%m.%Y"))
+print("LUA VERSION")
+print(_VERSION)
 --[[
 Credits
 https://asciiart.website/index.php?art=logos%20and%20insignias/linux
