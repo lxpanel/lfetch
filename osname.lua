@@ -62,6 +62,7 @@ function M.get_os_name()
         ['^mips']           = 'mips',
         ['i86pc']           = 'x86',
         ['riscv64']         = 'risc 64',
+        ['aarch64']         = 'arm',
     }
 
     local os_name, arch_name = 'unknown', 'unknown'
