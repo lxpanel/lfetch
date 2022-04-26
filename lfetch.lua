@@ -1,5 +1,5 @@
 print("OS:") dofile("osname.lua")
-print("HOST:") print(io.popen('uname -n'):read('*l'))
+print("HOST:") print(io.popen('hostname'):read('*l'))
 print("OS CLOCK TIME:")
 print(os.clock())
 print("MEMORY USAGE (kb):")
