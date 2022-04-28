@@ -49,6 +49,7 @@ function M.get_os_name()
         ['^cygwin']     = 'Windows',
         ['bsd$']        = 'BSD',
         ['sunos']       = 'Solaris',
+        ['haiku']       = 'Haiku',
     }
     
     local arch_patterns = {
